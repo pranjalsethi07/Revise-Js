@@ -1,4 +1,5 @@
 1.in dom, html file works as a document obj in javascript.
+
 2. console obj method:-
 assert()- to assert the condn ; works with no output if true condn , else says assertion fails
 clear()-clears console
@@ -11,6 +12,7 @@ alert()-invokes a mini  window with a msg
 prompt()-take input as string
 confirm()-shows a msg and waits for th user to press ok or cancel(t for ok /false for cancel)
 ctrl+l in console to clear the console
+
 Number.parseInt(jisko bh convert krna ho) -> converts str input to interger
 
 Window object is divided in 3 categories:-
@@ -40,3 +42,22 @@ DOM-DOCUMEN OBJ MODEL
             </body>
 
         </html>
+
+DOM Access methods:-
+element.firstChild
+element.lastChild
+element.childNodes
+element.parentNode
+element.parentElement
+document.previousElementSibling
+document.nextElementSibling
+document.firstElementChild
+document.lastElementChild
+
+DOM Searching Methods:-
+document.getElementById()
+document.querySelectorAll()
+document.querySelector()
+document.getElementsByTagName()
+document.getElementsByClassName()
+Document.getElementsByName()

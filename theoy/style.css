@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    display: flex;
+    justify-content:
+    space-evenly;
+}
+li{
+    list-style: none;
+    margin: 0px 20px;
+    color: white;
+}
+nav{
+    background-color: rgb(245, 121, 119);
+    padding: 20px;
+}
